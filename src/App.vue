@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <Header />
+  <img alt="DTLK logo" src="./assets/diti.jpg" />
   <HelloWorld msg="Welcome to Diti-Web" />
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import Header from "./components/Header.vue";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
+    Header,
   },
 };
 </script>
@@ -22,5 +25,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+img {
+  width: 40%;
 }
 </style>
